@@ -1,0 +1,125 @@
+2022-04-18 20:08:28,210 - pyrogram.session.auth - INFO - Start creating a new auth key on DC2
+2022-04-18 20:08:28,210 - pyrogram.connection.connection - INFO - Connecting...
+2022-04-18 20:08:28,219 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO ('149.154.167.51', 443)
+2022-04-18 20:08:29,281 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2022-04-18 20:08:29,281 - pyrogram.connection.connection - INFO - Disconnected
+2022-04-18 20:08:29,288 - pyrogram.connection.connection - INFO - Connecting...
+2022-04-18 20:08:29,296 - pyrogram.connection.connection - INFO - Connected! Production DC2 - IPv4 - TCPAbridgedO ('149.154.167.51', 443)
+2022-04-18 20:08:29,296 - pyrogram.session.session - INFO - NetworkTask started
+2022-04-18 20:08:29,353 - pyrogram.session.internals.msg_id - INFO - Time synced: 2022-04-18 20:08:29.350305 UTC
+2022-04-18 20:08:29,362 - pyrogram.session.session - INFO - NextSaltTask started
+2022-04-18 20:08:29,362 - pyrogram.session.session - INFO - Next salt in 44m 59s (at 2022-04-18 20:53:29)
+2022-04-18 20:08:29,379 - pyrogram.session.session - INFO - Session initialized: Layer 133
+2022-04-18 20:08:29,379 - pyrogram.session.session - INFO - Device: CPython 3.8.10 - Pyrogram 1.2.11
+2022-04-18 20:08:29,379 - pyrogram.session.session - INFO - System: Linux 5.13.0-1021-azure (EN)
+2022-04-18 20:08:29,379 - pyrogram.session.session - INFO - Session started
+2022-04-18 20:08:29,380 - pyrogram.session.session - INFO - PingTask started
+2022-04-18 20:08:29,398 - pyrogram.session.session - INFO - PingTask stopped
+2022-04-18 20:08:29,398 - pyrogram.session.session - INFO - NextSaltTask stopped
+2022-04-18 20:08:29,398 - pyrogram.connection.connection - INFO - Disconnected
+2022-04-18 20:08:29,398 - pyrogram.session.session - INFO - NetworkTask stopped
+2022-04-18 20:08:29,399 - pyrogram.session.session - INFO - Session stopped
+2022-04-18 20:08:29,404 - pyrogram.session.auth - INFO - Start creating a new auth key on DC4
+2022-04-18 20:08:29,405 - pyrogram.connection.connection - INFO - Connecting...
+2022-04-18 20:08:29,413 - pyrogram.connection.connection - INFO - Connected! Production DC4 - IPv4 - TCPAbridgedO ('149.154.167.91', 443)
+2022-04-18 20:08:30,412 - pyrogram.session.auth - INFO - Done auth key exchange: DhGenOk
+2022-04-18 20:08:30,412 - pyrogram.connection.connection - INFO - Disconnected
+2022-04-18 20:08:30,419 - pyrogram.connection.connection - INFO - Connecting...
+2022-04-18 20:08:30,428 - pyrogram.connection.connection - INFO - Connected! Production DC4 - IPv4 - TCPAbridgedO ('149.154.167.91', 443)
+2022-04-18 20:08:30,428 - pyrogram.session.session - INFO - NetworkTask started
+2022-04-18 20:08:30,524 - pyrogram.session.session - INFO - NextSaltTask started
+2022-04-18 20:08:30,524 - pyrogram.session.session - INFO - Next salt in 44m 59s (at 2022-04-18 20:53:30)
+2022-04-18 20:08:30,551 - pyrogram.session.session - INFO - Session initialized: Layer 133
+2022-04-18 20:08:30,551 - pyrogram.session.session - INFO - Device: CPython 3.8.10 - Pyrogram 1.2.11
+2022-04-18 20:08:30,551 - pyrogram.session.session - INFO - System: Linux 5.13.0-1021-azure (EN)
+2022-04-18 20:08:30,551 - pyrogram.session.session - INFO - Session started
+2022-04-18 20:08:30,551 - pyrogram.session.session - INFO - PingTask started
+2022-04-18 20:08:30,679 - pyrogram.dispatcher - INFO - Started 20 HandlerTasks
+2022-04-18 20:19:55,013 - pyrogram.dispatcher - ERROR - [Errno 2] No such file or directory: './data/5001825804/vars.txt'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pyrogram/dispatcher.py", line 217, in handler_worker
+    await handler.callback(self.client, *args)
+  File "v4.py", line 419, in chooseAccount
+    f = open(f'{direct}{q.from_user.id}/vars.txt', 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './data/5001825804/vars.txt'
+2022-04-18 20:20:37,669 - pyrogram.dispatcher - ERROR - [Errno 2] No such file or directory: './data/5001825804/vars.txt'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pyrogram/dispatcher.py", line 217, in handler_worker
+    await handler.callback(self.client, *args)
+  File "v4.py", line 349, in filterBanAccount
+    h = open(f'{direct}{q.from_user.id}/vars.txt', 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: './data/5001825804/vars.txt'
+Specified filename ./data/5001825804/sessions/+50230772708.session does not exist.
+/root/alivefa/data/5001825804/sessions/+50230772708.session:
+2022-04-18 20:37:30,768 - h7 - INFO - Info: total account has been runned is 0
+2022-04-18 20:37:30,900 - pyrogram.connection.connection - INFO - Connecting...
+2022-04-18 20:37:30,909 - pyrogram.connection.connection - INFO - Connected! Production DC4 - IPv4 - TCPAbridgedO (media) ('149.154.164.250', 443)
+2022-04-18 20:37:30,909 - pyrogram.session.session - INFO - NetworkTask started
+2022-04-18 20:37:30,981 - pyrogram.session.session - INFO - NextSaltTask started
+2022-04-18 20:37:30,981 - pyrogram.session.session - INFO - Next salt in 15m 59s (at 2022-04-18 20:53:30)
+2022-04-18 20:37:31,056 - pyrogram.session.session - INFO - Session initialized: Layer 133
+2022-04-18 20:37:31,056 - pyrogram.session.session - INFO - Device: CPython 3.8.10 - Pyrogram 1.2.11
+2022-04-18 20:37:31,056 - pyrogram.session.session - INFO - System: Linux 5.13.0-1021-azure (EN)
+2022-04-18 20:37:31,056 - pyrogram.session.session - INFO - Session started
+2022-04-18 20:37:31,057 - pyrogram.session.session - INFO - PingTask started
+2022-04-18 20:37:31,095 - pyrogram.session.session - INFO - PingTask stopped
+2022-04-18 20:37:31,095 - pyrogram.session.session - INFO - NextSaltTask stopped
+2022-04-18 20:37:31,095 - pyrogram.connection.connection - INFO - Disconnected
+2022-04-18 20:37:31,095 - pyrogram.session.session - INFO - NetworkTask stopped
+2022-04-18 20:37:31,095 - pyrogram.session.session - INFO - Session stopped
+/root/alivefa/data/5001825804/sessions/+50230772708.session:
+2022-04-18 20:42:57,342 - pyrogram.connection.connection - INFO - Connecting...
+2022-04-18 20:42:57,350 - pyrogram.connection.connection - INFO - Connected! Production DC4 - IPv4 - TCPAbridgedO (media) ('149.154.164.250', 443)
+2022-04-18 20:42:57,351 - pyrogram.session.session - INFO - NetworkTask started
+2022-04-18 20:42:57,422 - pyrogram.session.session - INFO - NextSaltTask started
+2022-04-18 20:42:57,422 - pyrogram.session.session - INFO - Next salt in 40m 32s (at 2022-04-18 21:23:30)
+2022-04-18 20:42:57,446 - pyrogram.session.session - INFO - Session initialized: Layer 133
+2022-04-18 20:42:57,446 - pyrogram.session.session - INFO - Device: CPython 3.8.10 - Pyrogram 1.2.11
+2022-04-18 20:42:57,446 - pyrogram.session.session - INFO - System: Linux 5.13.0-1021-azure (EN)
+2022-04-18 20:42:57,446 - pyrogram.session.session - INFO - Session started
+2022-04-18 20:42:57,447 - pyrogram.session.session - INFO - PingTask started
+2022-04-18 20:42:57,462 - pyrogram.session.session - INFO - PingTask stopped
+2022-04-18 20:42:57,462 - pyrogram.session.session - INFO - NextSaltTask stopped
+2022-04-18 20:42:57,462 - pyrogram.connection.connection - INFO - Disconnected
+2022-04-18 20:42:57,462 - pyrogram.session.session - INFO - NetworkTask stopped
+2022-04-18 20:42:57,462 - pyrogram.session.session - INFO - Session stopped
+Specified filename ./data/5001825804/sessions/+905462640956.session does not exist.
+2022-04-18 20:48:57,498 - pyrogram.dispatcher - ERROR - The confirmation code has expired (caused by ResendCodeRequest)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pyrogram/dispatcher.py", line 217, in handler_worker
+    await handler.callback(self.client, *args)
+  File "v4.py", line 282, in addAccount
+    await cccc.send_code_request(number)
+  File "/usr/local/lib/python3.8/dist-packages/telethon/client/auth.py", line 532, in send_code_request
+    result = await self(
+  File "/usr/local/lib/python3.8/dist-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/usr/local/lib/python3.8/dist-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+  File "/usr/lib/python3.8/asyncio/futures.py", line 260, in __await__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+    future.result()
+  File "/usr/lib/python3.8/asyncio/futures.py", line 178, in result
+    raise self._exception
+telethon.errors.rpcerrorlist.PhoneCodeExpiredError: The confirmation code has expired (caused by ResendCodeRequest)
+2022-04-18 20:53:30,021 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-18 21:23:30)
+2022-04-18 21:23:30,017 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-18 21:53:30)
+2022-04-18 21:53:30,018 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-18 22:23:30)
+2022-04-18 22:23:30,014 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-18 22:53:30)
+2022-04-18 22:53:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-18 23:23:30)
+2022-04-18 23:23:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-18 23:53:30)
+2022-04-18 23:53:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 00:23:30)
+2022-04-19 00:23:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 00:53:30)
+2022-04-19 00:53:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 01:23:30)
+2022-04-19 01:23:30,014 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 01:53:30)
+2022-04-19 01:53:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 02:23:30)
+2022-04-19 02:23:30,015 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 02:53:30)
+2022-04-19 02:53:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 03:23:30)
+2022-04-19 03:23:30,015 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 03:53:30)
+2022-04-19 03:53:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 04:23:30)
+2022-04-19 04:23:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 04:53:30)
+2022-04-19 04:53:30,018 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 05:23:30)
+2022-04-19 05:23:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 05:53:30)
+2022-04-19 05:53:30,013 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 06:23:30)
+2022-04-19 06:23:30,014 - pyrogram.session.session - INFO - Next salt in 29m 59s (at 2022-04-19 06:53:30)
